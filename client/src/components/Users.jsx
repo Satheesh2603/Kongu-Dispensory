@@ -8,7 +8,6 @@ import { useDispatch, useSelector } from "react-redux";
 import Empty from "./Empty";
 import fetchData from "../helper/FetchData.js";
 
-
 const Users = () => {
   const [users, setUsers] = useState([]);
   const dispatch = useDispatch();
@@ -25,7 +24,7 @@ const Users = () => {
 
   const deleteUser = async (userId) => {
     try {
-      const confirm = window.confirm("Are you sure you want to delete?");
+      const confirm = window.confirm("Are you sure you want to delete ?");
       if (confirm) {
         await toast.promise(
           axios.delete("/user/deleteuser", {
