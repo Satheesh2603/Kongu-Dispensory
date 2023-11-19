@@ -8,7 +8,7 @@ const HomeCircles = () => {
       <div className="circle">
         <CountUp
           start={0}
-          end={1000}
+          end={20}
           delay={0}
           enableScrollSpy={true}
           scrollSpyDelay={500}
@@ -28,7 +28,7 @@ const HomeCircles = () => {
       <div className="circle">
         <CountUp
           start={0}
-          end={250}
+          end={10}
           delay={0}
           enableScrollSpy={true}
           scrollSpyDelay={500}
@@ -48,7 +48,7 @@ const HomeCircles = () => {
       <div className="circle">
         <CountUp
           start={0}
-          end={75}
+          end={10}
           delay={0}
           enableScrollSpy={true}
           scrollSpyDelay={500}

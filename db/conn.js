@@ -4,7 +4,7 @@ mongoose.set("strictQuery", false);
 require("dotenv").config();
 
 const client = mongoose
-  .connect("mongodb+srv://vishnuk55265:vishnuk55265@cluster0.svueomz.mongodb.net/?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://Satheesh2003:MdxeJYd8rHdITp88@cluster2003.olriqnp.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp", {
     useNewUrlParser: true,
   })
   .then(() => {

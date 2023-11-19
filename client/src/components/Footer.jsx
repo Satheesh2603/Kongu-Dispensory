@@ -32,49 +32,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="social">
-            <h3>Social links</h3>
-            <ul>
-              <li className="facebook">
-                <a
-                  href="https://www.facebook.com/"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <FaFacebookF />
-                </a>
-              </li>
-              <li className="youtube">
-                <a
-                  href="https://www.youtube.com/"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <FaYoutube />
-                </a>
-              </li>
-              <li className="instagram">
-                <a
-                  href="https://www.instagram.com/"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <FaInstagram />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          Made by{" "}
-          <a
-            href="https://www.linkedin.com/in/dunna-avinash"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Santhosh
-          </a>{" "}
-          © {new Date().getFullYear()}
+          
         </div>
       </footer>
     </>

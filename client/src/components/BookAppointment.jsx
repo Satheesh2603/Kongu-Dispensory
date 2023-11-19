@@ -48,7 +48,9 @@ const BookAppointment = ({ setModalOpen, ele }) => {
       return error;
     }
   };
-
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  const today = tomorrow.toISOString().split('T')[0];
   return (
     <>
       <div className="modal flex-center">
@@ -68,6 +70,7 @@ const BookAppointment = ({ setModalOpen, ele }) => {
                 className="form-input"
                 value={formDetails.date}
                 onChange={inputChange}
+                min={today}  // Set the min attribute to restrict dates to those after today
               />
               <input
                 type="time"
